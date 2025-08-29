@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* Remove default search input buttons in Chrome/Safari/Edge */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+/* Remove default password reveal button */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear,
+input[type="password"]::-webkit-credentials-auto-fill-button {
+    display: none !important;
+    -webkit-appearance: none;
+}
